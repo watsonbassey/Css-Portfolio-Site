@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+.wrapper {
+    background: rgba(128, 128, 128, 0.073);
+    width: 650px;
+    height: 500px;
+    border-width: 20px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to left, 
+      rgba(231, 3, 3, 0.466), 
+      rgba(15, 42, 175, 0.317)
+    ) 1 30%;
+    border-bottom: none;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav-list {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.logo p {
+    color: #28070c;
+    padding: 10px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 20px;
+}
+
+.nav-list .li-4 {
+    color: #28070c;
+    padding: 5px 10px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.li-last {
+    color: white;
+    background: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 10px;
+    padding: 5px 10px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.main-section {
+    width: 450px;
+   margin: 0 auto;
+}
+
+.about-me {
+    display: flex;
+    margin-top: 70px;
+}
+
+.about-me img {
+    width: 100%;
+}
+
+.profile-pix {
+    width: 350px;
+}
+
+.my-passion h1, 
+.my-passion p {
+    margin-left: 20px;
+}
+
+.my-passion p {
+    font-size: 13px;
+    color: gray;
+    line-height: 18px;
+}
+
+.career {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.career h3 {
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.career p {
+    font-size: 10px;
+    color: gray;
+    line-height: 15px;
+ }
+
+.skill-set {
+    margin-left: 20px;
+}
+
+.skill-set-list {
+    display: flex;
+}
+
+.skill-set-list p {
+    border: 1px solid gray;
+    border-color: #aca8a38a;
+    margin: 3px;
+    padding: 1px;
+    text-transform: uppercase;
+    font-size: 7px;
+    font-weight: bold;
+}
